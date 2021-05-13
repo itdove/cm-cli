@@ -4,6 +4,7 @@ go 1.16
 
 replace (
 	github.com/go-logr/logr => github.com/go-logr/logr v0.4.0
+	github.com/open-cluster-management/applier => /Users/dvernier/acm/applier
 	k8s.io/client-go => k8s.io/client-go v0.20.4
 )
 

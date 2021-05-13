@@ -10,7 +10,7 @@ import (
 type Options struct {
 	applierScenariosOptions *applierscenarios.ApplierScenariosOptions
 	clusterName             string
-	cloud                   string
+	replicas                int
 	values                  map[string]interface{}
 }
 
